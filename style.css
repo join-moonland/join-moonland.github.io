@@ -1,0 +1,39 @@
+*{
+    font-family: 'Intro';
+}
+
+.button {
+    background-image: radial-gradient(#481d8a 0%, #421d79 20%, #38146e 50%, #2c0d4e 100%);
+    border-radius: 1em;
+    padding: 1em 1em;
+
+    color: #ffffffd0;
+    font-size: 24px;
+    text-decoration: none;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    box-shadow: 0 0.2em 0.3em #00000034;
+}
+
+.title {
+    height: 100vh;
+    width: 100%;   
+
+    background-image: radial-gradient(#2f2f2f 0%, #1f1f1f 100%);
+    background-position: center;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Intro';
+    src: url('font.woff2') format('woff2');
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+}
